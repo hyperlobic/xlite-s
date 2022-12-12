@@ -1,0 +1,126 @@
+checksum: 49657
+manuallyEdited: 0
+semver: 2.8.0
+board: xlites
+calib: 
+   Rud:
+      mid: 1153
+      spanNeg: 698
+      spanPos: 753
+   Ele:
+      mid: 843
+      spanNeg: 637
+      spanPos: 689
+   Thr:
+      mid: 955
+      spanNeg: 757
+      spanPos: 757
+   Ail:
+      mid: 950
+      spanNeg: 721
+      spanPos: 755
+currModel: 7
+contrast: 15
+vBatWarn: 66
+txVoltageCalibration: 0
+backlightMode: backlight_mode_all
+antennaMode: MODE_PER_MODEL
+disableRtcWarning: 0
+keysBacklight: 0
+internalModule: TYPE_ISRM_PXX2
+trainer: 
+   mix: 
+      0:
+         srcChn: 3
+         mode: REPL
+         studWeight: 100
+      1:
+         srcChn: 1
+         mode: REPL
+         studWeight: 100
+      2:
+         srcChn: 2
+         mode: REPL
+         studWeight: 100
+      3:
+         srcChn: 0
+         mode: REPL
+         studWeight: 100
+view: 0
+fai: 0
+beepMode: mode_nokeys
+alarmsFlash: 0
+disableMemoryWarning: 0
+disableAlarmWarning: 0
+stickMode: 1
+timezone: 0
+adjustRTC: 0
+inactivityTimer: 10
+internalModuleBaudrate: 0
+splashMode: 0
+hapticMode: mode_nokeys
+switchesDelay: 0
+lightAutoOff: 2
+templateSetup: 21
+PPM_Multiplier: 0
+hapticLength: 2
+beepLength: 2
+hapticStrength: 2
+gpsFormat: 0
+speakerPitch: 0
+speakerVolume: 12
+vBatMin: 67
+vBatMax: 83
+backlightBright: 0
+globalTimer: 1482
+bluetoothBaudrate: 0
+bluetoothMode: OFF
+countryCode: 0
+pwrOnSpeed: 0
+pwrOffSpeed: 0
+noJitterFilter: 0
+imperial: 0
+disableRssiPoweroffAlarm: 0
+USBMode: 0
+jackMode: 0
+ttsLanguage: "en"
+beepVolume: 2
+wavVolume: 4
+varioVolume: 2
+backgroundVolume: 3
+varioPitch: 0
+varioRange: 0
+varioRepeat: 0
+potsConfig: 
+   POT1:
+      type: without_detent
+      name: ""
+   POT2:
+      type: without_detent
+      name: ""
+backlightColor: 0
+switchConfig: 
+   SA:
+      type: 3pos
+      name: ""
+   SB:
+      type: 3pos
+      name: ""
+   SC:
+      type: 2pos
+      name: ""
+   SD:
+      type: 2pos
+      name: ""
+   SE:
+      type: toggle
+      name: ""
+   SF:
+      type: toggle
+      name: ""
+bluetoothName: ""
+ownerRegistrationID: " 73C1VP-"
+rotEncMode: 0
+uartSampleMode: 0
+imuMax: 0
+imuOffset: 0
