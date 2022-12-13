@@ -456,4 +456,212 @@ telemetrySensors:
       onlyPositive: 0
       cfg: 
          custom: 
-            rat
+            ratio: 0
+            offset: 0
+   6:
+      id1: 
+         id: 20
+      id2: 
+         instance: 0
+      label: "1RSS"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 17
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   7:
+      id1: 
+         id: 20
+      id2: 
+         instance: 1
+      label: "2RSS"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 17
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   8:
+      id1: 
+         id: 20
+      id2: 
+         instance: 2
+      label: "RQly"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 13
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   9:
+      id1: 
+         id: 20
+      id2: 
+         instance: 3
+      label: "RSNR"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 17
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   10:
+      id1: 
+         id: 20
+      id2: 
+         instance: 4
+      label: "ANT"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 0
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   11:
+      id1: 
+         id: 20
+      id2: 
+         instance: 5
+      label: "RFMD"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 0
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   12:
+      id1: 
+         id: 20
+      id2: 
+         instance: 6
+      label: "TPWR"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 16
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   13:
+      id1: 
+         id: 20
+      id2: 
+         instance: 7
+      label: "TRSS"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 17
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   14:
+      id1: 
+         id: 20
+      id2: 
+         instance: 8
+      label: "TQly"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 13
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   15:
+      id1: 
+         id: 20
+      id2: 
+         instance: 9
+      label: "TSNR"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 17
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+screens: 
+   0:
+      type: VALUES
+      u: 
+         lines: 
+            0:
+               sources: 
+                  0:
+                     val: tele(8)
+                  1:
+                     val: tele(6)
+            1:
+               sources: 
+                  0:
+                     val: tele(1)
+view: 0
+modelRegistrationID: " 73C1VP-"
