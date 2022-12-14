@@ -1,25 +1,33 @@
-checksum: 49657
+checksum: 5498
 manuallyEdited: 0
 semver: 2.8.0
 board: xlites
 calib: 
    Rud:
-      mid: 1153
+      mid: 1154
       spanNeg: 698
-      spanPos: 753
+      spanPos: 755
    Ele:
-      mid: 843
-      spanNeg: 637
-      spanPos: 689
+      mid: 805
+      spanNeg: 599
+      spanPos: 723
    Thr:
       mid: 955
-      spanNeg: 757
-      spanPos: 757
+      spanNeg: 756
+      spanPos: 756
    Ail:
-      mid: 950
+      mid: 949
       spanNeg: 721
-      spanPos: 755
-currModel: 7
+      spanPos: 753
+   POT1:
+      mid: 1037
+      spanNeg: 401
+      spanPos: 401
+   POT2:
+      mid: 1046
+      spanNeg: 368
+      spanPos: 368
+currModel: 2
 contrast: 15
 vBatWarn: 66
 txVoltageCalibration: 0
@@ -46,7 +54,7 @@ trainer:
          srcChn: 0
          mode: REPL
          studWeight: 100
-view: 0
+view: 4
 fai: 0
 beepMode: mode_nokeys
 alarmsFlash: 0
@@ -72,7 +80,7 @@ speakerVolume: 12
 vBatMin: 67
 vBatMax: 83
 backlightBright: 0
-globalTimer: 1482
+globalTimer: 8201
 bluetoothBaudrate: 0
 bluetoothMode: OFF
 countryCode: 0
