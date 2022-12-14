@@ -18,9 +18,9 @@ customThrottleWarningPosition: 0
 beepANACenter: 0
 mixData: 
  -
-   weight: -100
-   destCh: 0
-   srcRaw: POT1
+   weight: 100
+   destCh: 1
+   srcRaw: I5
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
@@ -31,7 +31,7 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: "Engine"
+   name: "Motor"
  -
    weight: -50
    destCh: 2
@@ -95,6 +95,21 @@ mixData:
  -
    weight: 100
    destCh: 4
+   srcRaw: I4
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   weight: 100
+   destCh: 6
    srcRaw: I0
    carryTrim: 0
    mixWarn: 0
@@ -189,7 +204,7 @@ limitData:
       revert: 0
       curve: 0
       name: ""
-   4:
+   6:
       min: 0
       max: 0
       ppmCenter: 100
@@ -255,6 +270,34 @@ expoData:
    curve: 
       type: 1
       value: 0
+ -
+   mode: 3
+   scale: 0
+   srcRaw: SC
+   carryTrim: 0
+   chn: 4
+   swtch: "NONE"
+   flightModes: 000000000
+   weight: 100
+   name: ""
+   offset: 0
+   curve: 
+      type: 1
+      value: 0
+ -
+   mode: 3
+   scale: 0
+   srcRaw: POT1
+   carryTrim: 0
+   chn: 5
+   swtch: "NONE"
+   flightModes: 000000000
+   weight: -100
+   name: ""
+   offset: 0
+   curve: 
+      type: 1
+      value: 0
 curves: 
    0:
       type: 1
@@ -307,7 +350,7 @@ flightModeData:
             val: 0
          8:
             val: 0
-thrTraceSrc: Thr
+thrTraceSrc: POT1
 switchWarningState: AuBuCuDuEuFu
 rssiSource: none
 rfAlarms: 
@@ -325,7 +368,7 @@ moduleData:
       failsafeMode: NOT_SET
       mod: 
          crsf: 
-            telemetryBaudrate: 0
+            telemetryBaudrate: 1
 trainerData: 
    mode: MASTER_BT
    channelsStart: 0
@@ -342,6 +385,8 @@ inputNames:
       val: "Ele"
    3:
       val: "Rud"
+   5:
+      val: "S1"
 potsWarnEnabled: 0
 telemetrySensors: 
    0:
