@@ -12,15 +12,15 @@ displayChecklist: 0
 extendedLimits: 0
 extendedTrims: 0
 throttleReversed: 0
-enableCustomThrottleWarning: 0
+enableCustomThrottleWarning: 1
 disableTelemetryWarning: 0
-customThrottleWarningPosition: 0
+customThrottleWarningPosition: 100
 beepANACenter: 0
 mixData: 
  -
-   weight: 100
+   weight: -100
    destCh: 1
-   srcRaw: I5
+   srcRaw: POT1
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
@@ -95,7 +95,7 @@ mixData:
  -
    weight: 100
    destCh: 4
-   srcRaw: I4
+   srcRaw: MAX
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
@@ -318,11 +318,16 @@ points:
       val: -76
    25:
       val: 51
+customFn: 
+   0:
+      swtch: "SD2"
+      func: LOGS
+      def: "3"
 flightModeData: 
    0:
       trim: 
          1:
-            value: 8
+            value: 16
             mode: 0
          3:
             value: 2
@@ -354,11 +359,11 @@ thrTraceSrc: POT1
 switchWarningState: AuBuCuDuEuFu
 rssiSource: none
 rfAlarms: 
-   warning: 38
+   warning: 50
    critical: 35
 thrTrimSw: 0
 potsWarnMode: WARN_OFF
-jitterFilter: GLOBAL
+jitterFilter: OFF
 moduleData: 
    1:
       type: TYPE_CROSSFIRE
@@ -708,5 +713,11 @@ screens:
                sources: 
                   0:
                      val: tele(1)
+                  1:
+                     val: tele(13)
+            2:
+               sources: 
+                  0:
+                     val: tele(+1)
 view: 0
 modelRegistrationID: " 73C1VP-"
